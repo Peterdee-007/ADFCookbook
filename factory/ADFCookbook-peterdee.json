@@ -1,0 +1,9 @@
+{
+	"name": "ADFCookbook-peterdee",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bc08efd5-08e7-4766-bd63-26b3c9ac443a",
+		"tenantId": "1036fdee-4733-4c2e-961a-55d7359b80a8"
+	}
+}
