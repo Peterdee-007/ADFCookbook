@@ -13,6 +13,9 @@
 		},
 		"AzureBlobStorageChap1_connectionString": {
 			"value": ""
+		},
+		"SqlServerExpress_connectionString": {
+			"value": ""
 		}
 	}
 }

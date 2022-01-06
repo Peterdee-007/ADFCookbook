@@ -19,6 +19,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageChap1'"
 		},
+		"SqlServerExpress_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServerExpress'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -54,6 +58,9 @@
 					},
 					"AzureBlobStorageChap1_connectionString": {
 						"value": "[parameters('AzureBlobStorageChap1_connectionString')]"
+					},
+					"SqlServerExpress_connectionString": {
+						"value": "[parameters('SqlServerExpress_connectionString')]"
 					}
 				}
 			},
