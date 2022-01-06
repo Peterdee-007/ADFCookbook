@@ -147,6 +147,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
+						"folderPath": "output",
 						"container": "adfcookbook"
 					}
 				}
