@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=False;data source=LEYLAND\\SQLEXPRESS;initial catalog=ADFCookbook;user id=datajamsa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlMjFiZDBhZS1hNjVjLTRkOTEtYjZlYS0xNzA4ZTdmYzRjZmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;data source=LEYLAND\\SQLEXPRESS;initial catalog=WideWorldImportersDW;user id=datajamsa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NDRmZGFjYi1jMjQxLTQ2YzYtOTZmYy00NGU1OTgzMjU5YzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntimeOnPrem",
