@@ -136,15 +136,6 @@
 							},
 							{
 								"source": {
-									"name": "Location"
-								},
-								"sink": {
-									"name": "Location",
-									"type": "String"
-								}
-							},
-							{
-								"source": {
 									"name": "Latest Recorded Population",
 									"type": "Int64"
 								},
