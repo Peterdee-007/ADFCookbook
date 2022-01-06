@@ -40,7 +40,151 @@
 						}
 					},
 					"enableStaging": false,
-					"validateDataConsistency": false
+					"validateDataConsistency": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "City Key",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "City Key",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "WWI City ID",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "WWI City ID",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "City",
+									"type": "String"
+								},
+								"sink": {
+									"name": "City",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "State Province",
+									"type": "String"
+								},
+								"sink": {
+									"name": "State Province",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Country",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Country",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Continent",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Continent",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sales Territory",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Sales Territory",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Region",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Region",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Subregion",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Subregion",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Location"
+								},
+								"sink": {
+									"name": "Location",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Latest Recorded Population",
+									"type": "Int64"
+								},
+								"sink": {
+									"name": "Latest Recorded Population",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Valid From",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "Valid From",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Valid To",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "Valid To",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Lineage Key",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "Lineage Key",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
